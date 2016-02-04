@@ -1,0 +1,27 @@
+{
+  "name": "johnnyswebsite",
+  "version": "1.0.0",
+  "description": "- landing, projects: music / coding, cv, bio - framework setup with semantic ui/twitter bootstrap  - must support a variety of different clients including desktop browsers, mobile browsers and native mobile applications - api's for reverbnation, soundcloud, spotify?/itunes?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnypacia/johnnyswebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnypacia/johnnyswebsite/issues"
+  },
+  "homepage": "https://github.com/johnnypacia/johnnyswebsite#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.5",
+    "request": "^2.69.0"
+  }
+}
