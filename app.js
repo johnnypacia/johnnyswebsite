@@ -3,7 +3,8 @@ var app = express();
 
 //config
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/semantic'));
+
 app.set('view engine', 'ejs');
 
 //landing page

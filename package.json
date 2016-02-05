@@ -24,5 +24,8 @@
     "mongodb": "^2.1.5",
     "request": "^2.69.0",
     "semantic-ui": "^2.1.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
   }
 }
