@@ -2,7 +2,7 @@
 #cover-image {
   border: solid 1px black;
   width: 80%;
-  background-image: url('resumescreen.png');
+  background-image: url('fuckyou.jpg');
   position: absolute;
   left:50%;
   top:50%;
@@ -10,7 +10,7 @@
   height:430px;
 
   margin-left:-419px; 
-  margin-top:-170px;
+  margin-top:-70px;
 }
 
 #bio {
