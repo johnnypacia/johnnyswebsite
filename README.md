@@ -1,4 +1,4 @@
-# portfolio site
+ # portfolio site
 
 - landing, projects: music / coding, cv, bio
 - framework setup with semantic ui/twitter bootstrap 
