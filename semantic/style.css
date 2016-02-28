@@ -1,24 +1,54 @@
 
-#cover-image {
-  border: solid 1px black;
-  width: 80%;
-  background-image: url('fuckyou.jpg');
-  position: absolute;
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.image {
+ 
+  width: 100%;
+  background-image: url('nypl.digitalcollections.b815939c-35fe-9d03-e040-e00a18063d9b.001.w.jpg');
   left:50%;
   top:50%;
-  width:840px;
-  height:430px;
+  width:80px;
+  height:80px;
 
   margin-left:-419px; 
   margin-top:-70px;
 }
 
 #bio {
- /* margin-left:-419px; 
+ /* margin-left:-419px;          
   margin-top:-70px;*/
 }
-
+   
 body {
-  background-image: url('nypl.digitalcollections.b815939c-35fe-9d03-e040-e00a18063d9b.001.w.jpg');
+  background: url('fuckyou.jpg') no-repeat;
 
+} 
+
+.name {
+  font-family: 'Righteous', cursive;
+  font-size: 120px;
+  text-align: center;
+  padding: 7px 9px 190px 10px;
+}
+
+.middle {
+
+  margin-left:-419px; 
+  margin-top:-70px;
+
+}
+
+#johnny {
+
+  margin-top: 100px;
+}
+
+.johnny { 
+
+  font-family: 'Righteous', cursive;
+  font-size: 120px;
+  text-align: center;
+  padding: 7px 9px 190px 10px;
+  margin-left:-419px; 
+  margin-top:-1990px;
 }
