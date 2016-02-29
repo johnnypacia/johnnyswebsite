@@ -24,6 +24,15 @@ body {
 
 } 
 
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+li{
+  list-style-type: none;
+  text-align: center;
+}
 .name {
   font-family: 'Righteous', cursive;
   font-size: 120px;
@@ -35,12 +44,14 @@ body {
 
   margin-left:-419px; 
   margin-top:-70px;
-
+ 
 }
 
 #johnny {
 
-  margin-top: 100px;
+  margin-top: 350px;
+  padding: 7px 9px 290px 10px;
+  text-align: right;
 }
 
 .johnny { 
