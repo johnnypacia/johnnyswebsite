@@ -1,7 +1,9 @@
 console.log('linked and loaded');
 
 
-var $projects;
+var $codingProjects;
+
+var $contact;
 
 $(function (){
 
@@ -17,8 +19,18 @@ $(function (){
 	});
 
 
+	$contact = $('#contact');
 
 
+
+	$contact.on('click', function(){
+		window.scrollTo( 0, 1000 );
+	});
+
+	// $contact.click(function(){
+	// window.scrollTo( 0, 1000 );
+	// });
+  
 
 
 
