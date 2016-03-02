@@ -8,3 +8,6 @@
 - coding page will feature 4 projects from school and possibly upcoming coding projects
 - future feature to have previously unreleased music listed as well as links to spotify and itunes
 - be deployed to mediaTemple
+
+- What should the bio say? consider touching on austin, new york, philosphy, music, web development
+- consider using photographs for music page, mohawk picture various photo shoots
