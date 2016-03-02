@@ -1,6 +1,6 @@
 # portfolio site
 
-- landing, projects: music / coding, cv, bio, contact
+- landing page will include photo and nav bar for projects: music / coding, cv, bio, contact
 - framework setup with semantic ui
 - must support a variety of different clients including desktop browsers, mobile browsers and native mobile applications
 - will be an spa using node framework
