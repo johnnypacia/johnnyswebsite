@@ -24,7 +24,7 @@ $(function (){
 
 
 	$contact.on('click', function(){
-		window.scrollTo( 0, 1000 );
+		window.scrollTo( 0, 800 );
 	});
 
 	// $contact.click(function(){

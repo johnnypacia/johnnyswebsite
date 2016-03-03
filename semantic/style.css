@@ -15,8 +15,9 @@
 }
 
 #bio {
- /* margin-left:-419px;          
-  margin-top:-70px;*/
+  margin-left:-419px;          
+  margin-top: -410px;
+  text-align: center;
 }
    
 body {
