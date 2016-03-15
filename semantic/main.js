@@ -19,6 +19,11 @@ $(function (){
 	});
 
 
+	$('.ui.sticky')
+	  .sticky({
+	    context: '#example1'
+  	});
+
 	$contact = $('#contact');
 
 
