@@ -33,27 +33,62 @@ li{
   padding: 7px 9px 190px 10px;
 }
 
+#coding-projects-container {
+  width: 100%;
+}
+
+#music-projects-container {
+  width: 100%;
+}
+
 #sound-shaper {
   background-image: url('ProjectFour.png');
-  width: 250px;
+  width: 20%;
   height: 250px;
+  display: inline-block;
 }
 
 #attendance-tracker {
   background-image: url('ProjectThree.png');
-  width: 250px;
+  width: 20%;
   height: 250px;
+  display: inline-block;
+
 }
 
 #wiki-app {
   background-image: url('ProjectTwo.png');
-  width: 250px;
+  width: 20%;
   height: 250px;
+  display: inline-block;
+
 }
 
 #simon-strums {
   background-image: url('projectonepicture.png');
-  width: 250px;
+  width: 20%;
   height: 250px;
+  display: inline-block;
+
 }
 
+#perique {
+ background-image: url('Perique.png');
+ width: 22%;
+ height: 250px;
+ display: inline-block;
+}
+
+#mayflower {
+  background-image: url('mayflower.jpg');
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+}
+
+#madam-george {
+  background-image: url('madamgeorge.jpg');
+  width: 22%;
+  height: 250px;
+  display: inline-block;
+}
