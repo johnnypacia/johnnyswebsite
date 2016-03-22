@@ -1,60 +1,37 @@
-console.log('linked and loaded');
+console.log('linked and loaded'); 
 
 
-var $codingProjects;
-
+var $resume;
 var $contact;
+var $apps;
+var $music;
 
 $(function (){
 
-	$codingProjects = $("#coding-projects");
-
-
-
-	$codingProjects.click(function(){
-
-
-	$('.ui.modal').modal('show');
-
-	});
-
-
 	$('.ui.sticky')
 	  .sticky({
-	    context: '#example1'
+	    context: '#sticky-container'
   	});
 
+	$resume = $("#resume");
+	$resume.click(function(){
+		$('.ui.modal').modal('show');
+	});
+
 	$contact = $('#contact');
-
-
-
 	$contact.on('click', function(){
 		window.scrollTo( 0, 800 );
 	});
 
-	// $contact.click(function(){
-	// window.scrollTo( 0, 1000 );
-	// });
-  
+	$apps = $('#coding-projects');
+	$apps.on('click', function(){
+		window.scrollTo( 0, 1000 );
+	});
 
-
-
-
-
-
-
-
-
-
-	// $('a.item').click(function(){
-	// 	$('.item').removeClass('active');
-	// 	$(this).addClass('active');
-	// })
-
-	// $('select.dropdown').dropdown('set selected', ['meteor', 'ember']);
-
-	// $('.ui.modal')
- //     .modal('show');
+	$music = $('#music-projects');
+	$music.on('click', function(){
+		window.scrollTo( 0, 1200);
+	});
 
 
 

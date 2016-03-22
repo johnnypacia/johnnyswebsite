@@ -4,8 +4,9 @@
 
 #bio {
   margin-left:-89px;          
-  margin-top: 580px;
+  margin-top: 540px;
 }
+
    
 body {
   background: url('fuckyou.jpg') no-repeat;
@@ -15,6 +16,10 @@ body {
 h1 {
   text-align: center;
   margin: 0 auto;
+}
+
+#johnny-bio {
+  text-align: left;
 }
 
 li{
@@ -27,3 +32,28 @@ li{
   text-align: center;
   padding: 7px 9px 190px 10px;
 }
+
+#sound-shaper {
+  background-image: url('ProjectFour.png');
+  width: 250px;
+  height: 250px;
+}
+
+#attendance-tracker {
+  background-image: url('ProjectThree.png');
+  width: 250px;
+  height: 250px;
+}
+
+#wiki-app {
+  background-image: url('ProjectTwo.png');
+  width: 250px;
+  height: 250px;
+}
+
+#simon-strums {
+  background-image: url('projectonepicture.png');
+  width: 250px;
+  height: 250px;
+}
+
