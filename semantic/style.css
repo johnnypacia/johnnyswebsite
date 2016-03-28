@@ -19,12 +19,16 @@ h1 {
 }
 
 #johnny-bio {
-  text-align: left;
+  /*text-align: left;*/
 }
 
-li{
+li {
   list-style-type: none;
   text-align: center;
+}
+
+p {
+  font-size: 27px;
 }
 .name {
   font-family: 'Righteous', cursive;
@@ -91,4 +95,11 @@ li{
   width: 22%;
   height: 250px;
   display: inline-block;
+}
+
+#johnnys-resume {
+  background-image: url('resumescreen.png');
+  height: 900px;
+  width: 850px;
+
 }
