@@ -1,17 +1,58 @@
 
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 
-
+.header {
+  margin-left:-89px;
+}
 #bio {
   margin-left:-89px;          
-  margin-top: 540px;
+  margin-top: 200px;
 }
 
-   
-body {
-  background: url('fuckyou.jpg') no-repeat;
 
-} 
+@media screen and (min-width: 1000px) {
+     
+  body {
+    background: url('noun_337682_cc.png') no-repeat;
+    background-size: cover;
+
+  } 
+
+  #johnny {
+    background-image: url('fuckyou.jpg');
+    width: 235px;
+    height: 210px;
+    margin-left: 469px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 999px) and (min-width: 480px) {
+
+  body {
+    background: url('noun_337682_cc.png') no-repeat;
+    background-size: cover;
+
+  } 
+
+  #johnny {
+  background-image: url('fuckyou.jpg');
+  width: 235px;
+  height: 210px;
+  margin-left: 369px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+
+  }
+}
+
+
+
 
 h1 {
   text-align: center;
