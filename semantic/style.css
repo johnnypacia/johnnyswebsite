@@ -28,6 +28,63 @@
     border-radius: 50px;
     }
 
+  #sound-shaper {
+    background-image: url('ProjectFour.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #attendance-tracker {
+    background-image: url('ProjectThree.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+  }
+
+  #wiki-app {
+    background-image: url('ProjectTwo.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+  }
+
+  #simon-strums {
+    background-image: url('projectonepicture.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+  }
+
+  #perique {
+   background-image: url('Perique.png');
+   width: 250px;
+   height: 250px;
+   display: inline-block;
+  }
+
+  #mayflower {
+    background-image: url('mayflower.jpg');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #madam-george {
+    background-image: url('madamgeorge.jpg');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #johnnys-resume {
+    background-image: url('resumescreen.png');
+    height: 900px;
+    width: 850px;
+  }  
 }
 
 
@@ -40,23 +97,87 @@
   } 
 
   #johnny {
-  background-image: url('fuckyou.jpg');
-  width: 235px;
-  height: 210px;
-  margin-left: 369px;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+    background-image: url('fuckyou.jpg');
+    width: 235px;
+    height: 210px;
+    margin-left: 369px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
 
+  #sound-shaper {
+    background-image: url('ProjectFour.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #attendance-tracker {
+    background-image: url('ProjectThree.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+  }
+
+  #wiki-app {
+    background-image: url('ProjectTwo.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+  }
+
+  #simon-strums {
+    background-image: url('projectonepicture.png');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+  }
+
+  #perique {
+   background-image: url('Perique.png');
+   width: 250px;
+   height: 250px;
+   display: inline-block;
+  }
+
+  #mayflower {
+    background-image: url('mayflower.jpg');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #madam-george {
+    background-image: url('madamgeorge.jpg');
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #johnnys-resume {
+    background-image: url('resumescreen.png');
+    height: 900px;
+    width: 850px;
   }
 }
 
 
-
-
+i {
+  padding: 2em;
+  margin: 0 auto;
+}
+ 
 h1 {
   text-align: center;
   margin: 0 auto;
+}
+
+#last-h1 {
+  font-size: 10px;
 }
 
 #johnny-bio {
@@ -86,61 +207,4 @@ p {
   width: 100%;
 }
 
-#sound-shaper {
-  background-image: url('ProjectFour.png');
-  width: 20%;
-  height: 250px;
-  display: inline-block;
-}
 
-#attendance-tracker {
-  background-image: url('ProjectThree.png');
-  width: 20%;
-  height: 250px;
-  display: inline-block;
-
-}
-
-#wiki-app {
-  background-image: url('ProjectTwo.png');
-  width: 20%;
-  height: 250px;
-  display: inline-block;
-
-}
-
-#simon-strums {
-  background-image: url('projectonepicture.png');
-  width: 20%;
-  height: 250px;
-  display: inline-block;
-
-}
-
-#perique {
- background-image: url('Perique.png');
- width: 22%;
- height: 250px;
- display: inline-block;
-}
-
-#mayflower {
-  background-image: url('mayflower.jpg');
-  width: 22%;
-  height: 250px;
-  display: inline-block;
-}
-
-#madam-george {
-  background-image: url('madamgeorge.jpg');
-  width: 22%;
-  height: 250px;
-  display: inline-block;
-}
-
-#johnnys-resume {
-  background-image: url('resumescreen.png');
-  height: 900px;
-  width: 850px;
-
-}

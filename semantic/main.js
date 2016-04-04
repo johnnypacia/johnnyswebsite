@@ -20,17 +20,17 @@ $(function (){
 
 	$contact = $('#contact');
 	$contact.on('click', function(){
-		window.scrollTo( 0, 800 );
+		window.scrollTo( 0, 1200 );
 	});
 
 	$apps = $('#coding-projects');
 	$apps.on('click', function(){
-		window.scrollTo( 0, 1000 );
+		window.scrollTo( 0, 1600 );
 	});
 
 	$music = $('#music-projects');
 	$music.on('click', function(){
-		window.scrollTo( 0, 1200);
+		window.scrollTo( 0, 3000 );
 	});
 
 
