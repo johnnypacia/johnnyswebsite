@@ -4,11 +4,19 @@
 .header {
   margin-left:-89px;
 }
+
 #bio {
   margin-left:-89px;          
   margin-top: 200px;
 }
 
+#johnny-contact {
+  height: 300px;
+}
+
+#johnny-coding {
+  height: 350px;
+}
 
 @media screen and (min-width: 1000px) {
      
