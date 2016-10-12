@@ -2,7 +2,7 @@
   "name": "johnnyswebsite",
   "version": "1.0.0",
   "description": "- landing, projects: music / coding, cv, bio - framework setup with semantic ui/twitter bootstrap  - must support a variety of different clients including desktop browsers, mobile browsers and native mobile applications - api's for reverbnation, soundcloud, spotify?/itunes?",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
