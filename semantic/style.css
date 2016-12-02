@@ -5,14 +5,13 @@
   margin-left:-89px;
 }
 
-#bio {
+#johnny-contact {
   margin-left:-89px;          
   margin-top: 200px;
+  padding-bottom: 10px;
 }
 
-#johnny-contact {
-  height: 300px;
-}
+
 
 #johnny-coding {
   height: 350px;
@@ -21,9 +20,12 @@
 @media screen and (min-width: 1000px) {
      
   body {
+    padding-bottom: 1000px;
     background: url('noun_337682_cc.png') no-repeat;
     background-size: cover;
-
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
   } 
 
   #johnny {
