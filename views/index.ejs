@@ -12,12 +12,16 @@
 </head>
 <body>
 	<div class= "header">
-		<h1 class="name">Johnny Pacia</h1>
+		<h1 id="johnny-name">Johnny Pacia</h1>
 	</div>
 	<div id="sticky-container">
+		<div id="contact-sticky"class="ui sticky" style="width: 282px !important; height: 263 px !important; left= -96.179px;">
+			<nav class="ui middle inverted vertical compact menu">
+				<a id="johnny-contact" class="item">Contact</a>
+			</nav>
+		</div>
 		<div class="ui sticky" style="width: 272px !important; height: 263 px !important; left= -96.179px;">
 			<nav class="ui middle vertical compact menu">
-				<a id ="contact" class="item">Contact</a>
 				<a id="resume" class="item">Resume</a>
 				<div class="ui simple dropdown item">Projects
 				    <div class="menu">
@@ -27,72 +31,74 @@
 				</div>
 			</nav>
 		</div>
-
-		
-		<div id="johnny-contact" class="ui black inverted verticle footer segment">
-			<div class="ui black center aligned container">
-				<div class="ui stackable inverted grid">
-					<h1 id ="contact" class="ui johnny inverted header">CONTACT</h1>
-					<div class="ui black center aligned container">
-					<h1 class="inverted ui header">Howdy!</h1>
-					<p>I am an nyc-based full-stack web developer currently seeking full-time employment.</p>
-					<p>Having explored my musical style in ATX, I decided to return home to NYC and acclimate my love of philosophy and music into new skill-sets, including, node.js, ruby-on-rails, and use of google’s Web Audio API.</p>
-					<a href="https://github.com/johnnypacia"><i class="big github icon"></i></a>
-					<a href="https://www.linkedin.com/in/johnnypacia"><i class="big linkedin icon"></i></a>
-					<a href="https://soundcloud.com/johnnypacia"><i class="big soundcloud icon"></i></a>
-				</div>		
-			</div>
+	</div>
+	<div id="johnny-bio" class="ui sidebar inverted card">
+		<div class="image">
+			<img src="fuckyou.jpg">
 		</div>
-
-		<div class="ui black inverted verticle footer segment">
-			<div class="ui black center aligned container">
-				<div class="ui stackable inverted grid">
-					<h1 class="ui inverted header">CODING PROJECTS</h1>
-					<div id="coding-projects-container">
-							<a href="https://nameless-bayou-39478.herokuapp.com/">
-								<div id="sound-shaper" class="three wide column">
-							</div>
-							</a>
-							<a href="https://floating-mesa-1461.herokuapp.com/">
-								<div id="attendance-tracker" class="three wide column"></div>
-							</a>
-							<a href="https://obscure-refuge-1439.herokuapp.com/">
-								<div id="wiki-app" class="three wide column"></div>
-							</a>
-							<a href="http://johnnypacia.github.io/">
-								<div id="simon-strums" class="three wide column"></div>
-							</a>
+	</div>
+	<!-- <div class="pusher">
+		<a class="inverted ui header">Howdy!</a>
+		<p>I am an nyc-based full-stack web developer currently seeking full-time employment.</p>
+		<p>Having explored my musical style in Austin, TX I decided to return home to NYC and acclimate my love of philosophy and music into new skill-sets, including, node.js, ruby-on-rails, and use of google’s Web Audio API.</p>
+		<h1 id ="contact" class="ui johnny inverted header">CONTACT</h1>
+		<a href="https://github.com/johnnypacia">
+			<i class="github icon"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/johnnypacia">
+			<i class="linkedin icon"></i>
+		</a>
+		<a href="https://soundcloud.com/johnnypacia">
+			<i class="soundcloud icon"></i>
+		</a>
+	</div> -->
+	<div class="ui black inverted verticle footer segment">
+		<div class="ui black center aligned container">
+			<div class="ui stackable inverted grid">
+				<h1 class="ui inverted header">CODING PROJECTS</h1>
+				<div id="coding-projects-container">
+					<a class="image" href="https://nameless-bayou-39478.herokuapp.com/">
+						<div id="sound-shaper" class="three wide column">
 					</div>
+					</a>
+					<a class="image" href="https://floating-mesa-1461.herokuapp.com/">
+						<div id="attendance-tracker" class="three wide column"></div>
+					</a>
+					<a class="image"  href="https://obscure-refuge-1439.herokuapp.com/">
+						<div id="wiki-app" class="three wide column"></div>
+					</a>
+					<a class="image" href="http://johnnypacia.github.io/">
+						<div id="simon-strums" class="three wide column"></div>
+					</a>
 				</div>
 			</div>
 		</div>
-
-		<div class="ui black inverted verticle footer segment">
-			<div class="ui black center aligned container">
-				<div class="ui stackable inverted grid">
-			  		<h1 class="ui inverted header">MUSIC PROJECTS</h1>
-			  		<div id="music-projects-container">
-			  			<a href="https://itunes.apple.com/us/album/perique/id386403849">
-			  				<div id="perique" class="three wide column"></div>
-			  			</a>
-			  			<a href="https://soundcloud.com/mancusomusic/johnny-pacia-brooklyn-morning">
-			  				<div id="mayflower" class="three wide column"></div>
-			  			</a>
-			  			<a href="https://open.spotify.com/album/0S73UEfQzctFYTO0fTujQV">
-			  				<div id="madam-george" class="three wide column"></div>
-			  			</a>
-			  		</div>
+	</div>
+	<div class="ui black inverted verticle footer segment">
+		<div class="ui black center aligned container">
+			<div class="ui stackable inverted grid">
+		  		<h1 class="ui inverted header">MUSIC PROJECTS</h1>
+		  		<div id="music-projects-container">
+		  			<a href="https://itunes.apple.com/us/album/perique/id386403849">
+		  				<div id="perique" class="three wide column"></div>
+		  			</a>
+		  			<a href="https://soundcloud.com/mancusomusic/johnny-pacia-brooklyn-morning">
+		  				<div id="mayflower" class="three wide column"></div>
+		  			</a>
+		  			<a href="https://open.spotify.com/album/0S73UEfQzctFYTO0fTujQV">
+		  				<div id="madam-george" class="three wide column"></div>
+		  			</a>
 		  		</div>
-		  	</div>
-	  	</div>	
-	  	<div class="ui black inverted verticle footer segment">
-	  		<h1 id="last-h1" class="ui inverted header">Background Icon created by Jonathan Li</h1>
-	  		<p id="last-p">All content © Johnny Pacia unless otherwise specified</p>
+	  		</div>
 	  	</div>
-		<div id"johnnys-resume" class="ui modal">
-			<div class="header">JOHNNY PACIA'S RESUME</div>	
-			<img src="resumescreen.png">
-		</div>
-
+  	</div>	
+  	<div class="ui black inverted verticle footer segment">
+  		<h1 id="last-h1" class="ui inverted header">Background Icon created by Jonathan Li</h1>
+  		<p id="last-p">All content © Johnny Pacia unless otherwise specified</p>
+  	</div>
+	<div id"johnnys-resume" class="ui modal">
+		<div class="header">JOHNNY PACIA'S RESUME</div>	
+		<img src="resumescreen.png">
+	</div>
 </body>
 </html>
