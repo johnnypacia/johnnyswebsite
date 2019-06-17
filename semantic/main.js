@@ -21,7 +21,7 @@ $(function (){
 	$contact = $('#johnny-contact');
 
 	$contact.on('click', function(){
-		$contact.sidebar('toggle');
+		$('.ui.sidebar').sidebar('toggle');
 		
 	});
 
@@ -44,4 +44,5 @@ $(function (){
 	    interval  : 200
 	  	});
 	});
+
 });
