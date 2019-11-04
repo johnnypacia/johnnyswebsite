@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var sass = require('node-sass');
 
 //config
 
