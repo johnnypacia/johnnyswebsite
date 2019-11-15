@@ -1,6 +1,6 @@
 console.log('linked and loaded'); 
 
-
+var $gradient;
 var $resume;
 var $contact;
 var $apps;
@@ -44,5 +44,18 @@ $(function (){
 	    interval  : 200
 	  	});
 	});
+
+	$gradient = $('.ui.demo.segment')
+	  .visibility({
+	    once       : false,
+	    continuous : true,
+	    onPassing  : function(calculations) {
+	      var newColor = 'rgba(0, 0, 0, ' + calculations.percentagePassed +')';
+	      $(this)
+	        .css('background-color', newColor)
+	      ;
+	    }
+	  })
+	;
 
 });
