@@ -10,7 +10,6 @@ $(function (){
 
 	$('.ui.sticky')
 	  .sticky({
-	    context: '#sticky-container'
   	});
 
 	$resume = $("#resume");
