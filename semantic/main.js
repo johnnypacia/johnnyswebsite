@@ -44,7 +44,7 @@ $(function (){
 	  	});
 	});
 
-	$gradient = $('.ui.demo.segment')
+	$gradient = $('.ui.demo.segment ui.items')
 	  .visibility({
 	    once       : false,
 	    continuous : true,
