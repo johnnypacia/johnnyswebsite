@@ -24,6 +24,26 @@ $(function (){
 		
 	});
 
+	$('.right')
+	  .on('click', function() {
+	    console.log('right');
+	    $('.slide')
+	      .siblings('.active:not(:last-of-type)') 
+	      .removeClass('active')
+	      .next()
+	      .addClass('active');
+	});
+
+	$('.left')
+	  .on('click', function() {
+	    $('.slide')
+	      .siblings('.active:not(:first-of-type)')
+	      .removeClass('active')
+	      .prev()
+	      .addClass('active');
+	});
+ 
+
 	$apps = $('#coding-projects');
 	$apps.on('click', function(){
 		window.scrollTo( 0, 1600 );
