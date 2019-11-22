@@ -36,6 +36,7 @@ $(function (){
 
 	$('.left')
 	  .on('click', function() {
+	    console.log('left');
 	    $('.slide')
 	      .siblings('.active:not(:first-of-type)')
 	      .removeClass('active')
