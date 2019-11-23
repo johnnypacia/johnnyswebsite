@@ -44,22 +44,23 @@ body {
     height: 100%;
     padding: 2rem 5rem;
     transition: all .2s ease-in-out;
-    :not(.active) {
+    /*:not(.active) {
       display: none;
     }
-    &.inverted {
+    .inverted {
       color: white;
     }
-    &.shadow {
+    .shadow {
       text-shadow: 1px 1px 2px black;
     }
-    &.image {
+
+    .image {
       background: url('https://c1.staticflickr.com/8/7371/12387240074_536af0b877.jpg') no-repeat center center fixed;
       background-size: cover; 
     }
-    &.salmon {
+    .salmon {
       background: salmon;
-    }
+    }*/
   }
 
 .slides {
