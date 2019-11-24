@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "- landing, projects: music / coding, cv, bio - framework setup with semantic ui/twitter bootstrap  - must support a variety of different clients including desktop browsers, mobile browsers and native mobile applications - api's for reverbnation, soundcloud, spotify?/itunes?",
   "engines": {
-  	"node": "6.11.1"
+    "node": "6.11.1"
   },
   "main": "app.js",
   "scripts": {
@@ -27,9 +27,12 @@
     "express": "^4.13.4",
     "foobar": "^1.1.0",
     "mongodb": "^2.1.5",
-    "node-sass": "^3.4.2",
+    "node-gyp": "^6.0.1",
+    "node-sass": "^4.13.0",
     "request": "^2.69.0",
-    "semantic-ui": "^2.1.8"
+    "semantic-ui": "^2.1.8",
+    "semantic-ui-sass": "^2.4.2",
+    "t": "^0.5.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0"
