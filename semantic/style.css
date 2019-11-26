@@ -54,9 +54,6 @@ body {
     height: 100%;
     padding: 2rem 5rem;
     transition: all .2s ease-in-out;
-    :not(.active) {
-      display: none;
-    }
     .inverted {
       color: white;
     }
@@ -73,7 +70,9 @@ body {
     }
   }
   
-
+.slide:not(.active) {
+      display: none;
+    }
 
 .faded {
   animation: fade .5s;
