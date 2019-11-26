@@ -21,27 +21,13 @@ body {
 }
 
 
-
-
-
-
-.slides {
-  background: white;
-  height: 30rem;
-  width: 100%;
-  overflow: hidden;
-
-  .angle {
+.angle {
     cursor: pointer;
     position: relative;
     top: calc(50% - 20px);
     transform: scale(2);
     transition: all .2s ease-in-out;
     z-index: 10;
-    :hover {
-      transform: scale(1.7);
-    }
-
     .right {
       float: right;
       margin-right: 1rem;
@@ -52,7 +38,19 @@ body {
     }
   }
 
-  .slide {
+.angle:hover{
+      transform: scale(1.7);
+      color: orange;
+  }
+
+.slides {
+  background: white;
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+  }
+
+.slide {
     height: 100%;
     padding: 2rem 5rem;
     transition: all .2s ease-in-out;
@@ -75,7 +73,7 @@ body {
     }
   }
   
-}
+
 
 .faded {
   animation: fade .5s;
