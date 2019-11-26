@@ -65,7 +65,7 @@ $(function (){
 	  	});
 	});
 
-	$gradient = $('.ui.demo.segment ui.items')
+	$gradient = $('.ui.demo.segment')
 	  .visibility({
 	    once       : false,
 	    continuous : true,

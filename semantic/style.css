@@ -5,14 +5,6 @@
     font-size: 5vw;
   }
 
-p > code {
-    background: orange;
-    border-radius: 3px;
-    color: dimgrey;
-    margin: 0 .1em;
-    padding: .1em .2em;
-    text-shadow: none;
-  }
 
 body {
   background: transparent;
@@ -62,8 +54,7 @@ body {
     }
 
     .image {
-      background: url('https://c1.staticflickr.com/8/7371/12387240074_536af0b877.jpg') no-repeat center center fixed;
-      background-size: cover; 
+      background: url('noun_337682_cc.png') no-repeat;
     }
     .salmon {
       background: salmon;
