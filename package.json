@@ -26,6 +26,8 @@
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "foobar": "^1.1.0",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "mongodb": "^2.1.5",
     "node-gyp": "^6.0.1",
     "node-sass": "^4.13.0",
