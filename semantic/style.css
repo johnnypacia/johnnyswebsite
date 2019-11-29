@@ -16,7 +16,7 @@ body {
 .angle {
     cursor: pointer;
     position: relative;
-    top: calc(50% - 20px);
+    /*top: calc(50% - 20px);*/
     transform: scale(2);
     transition: all .2s ease-in-out;
     z-index: 10;
@@ -70,7 +70,10 @@ body {
   to { filter: blur(0); }
 }
 
-
+.image {
+  background: url('JohnnySunset.JPG')  no-repeat center/* center fixed*/;
+      background-size: cover; 
+}
 
 
 
