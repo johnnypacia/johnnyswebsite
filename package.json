@@ -27,6 +27,7 @@
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "foobar": "^1.1.0",
+    "graceful-fs": "^4.2.3",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
     "mongodb": "^3.3.5",
@@ -38,6 +39,6 @@
     "t": "^0.5.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.2"
   }
 }
