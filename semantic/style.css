@@ -13,27 +13,6 @@ body {
 }
 
 
-.angle {
-    cursor: pointer;
-    position: relative;
-    top: calc(50% - 20px);
-    transform: scale(1);
-    transition: all .2s ease-in-out;
-    z-index: 40;
-    .right {
-      float: right;
-      margin-right: 20rem;
-    }
-    .left {
-      float: left;
-      margin-left: 20rem;
-    }
-  }
-
-.angle:hover{
-      transform: scale(1.7);
-      color: orange;
-  }
 
 .slides {
   background: white;
@@ -42,11 +21,33 @@ body {
   overflow: hidden;
   }
 
-/*.slide {
+.angle {
+    cursor: pointer;
+    position: relative;
+    width: calc(100% - 20px);
+    transform: scale(2);
+    transition: all .2s ease-in-out;
+    z-index: 40;
+    .right {
+      float: right;
+      margin-right: 20px;
+    }
+    .left {
+      float: left;
+      margin-left: 20px;
+    }
+  }
+
+.angle:hover{
+      transform: scale(1.7);
+      color: orange;
+  }
+
+.slide {
     height: 100%;
     padding: 2rem 5rem;
     transition: all .2s ease-in-out;
-  }*/
+  }
   
 .slide:not(.active) {
       display: none;
