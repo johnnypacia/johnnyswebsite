@@ -12,7 +12,18 @@ app.get('/', function(req, res){
 	res.render('index');
 });
 
+//music page
+
 app.get('/music', function(req, res){
 	res.render('music');
 });
+
+//landing page
+
+app.get('/coding', function(req, res){
+	res.render('coding');
+});
+
+//landing page
+
 app.listen(process.env.PORT || 3000);
