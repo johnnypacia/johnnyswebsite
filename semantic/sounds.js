@@ -48,10 +48,6 @@ var playBack = function(){
 	piano.play();
 	drums.unmute();
 	drums.play();
-    overdrive.setDrive(0);
-	overdrive.setTone(0);
-	overdrive.setLevel(0);
-	volume.setLevel(1);
 };
 
 var pausePlayBack = function (){
@@ -85,11 +81,6 @@ fadeOutButton.addEventListener("click", fadeOut);
 	// mute & unmute
 
 var muteGuitar = function(){
-	// !overdrive.bypassSwitch.getState() && overdrive.bypassSwitch.toggle();
-	// overdrive.setDrive(0);
-	// overdrive.setTone(0);
-	// overdrive.setLevel(0);
-	// volume.setLevel(0);
 	guitar.mute();
 	removeMuteGuitarListener();
 }
