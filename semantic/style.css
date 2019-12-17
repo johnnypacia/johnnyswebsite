@@ -12,7 +12,11 @@ body {
 
 }
 
-
+.video-js.vjs-fullscreen {
+    width: 560px;
+    height: 315px;
+    padding-top: 0 !important;
+}
 
 .slides {
   background: white;
