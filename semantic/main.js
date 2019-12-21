@@ -65,7 +65,7 @@ $(function (){
 	  	});
 	});
 
-	$gradient = $('.ui.demo.segment')
+	$gradient = $('body')
 	  .visibility({
 	    once       : false,
 	    continuous : true,
@@ -78,4 +78,16 @@ $(function (){
 	  })
 	;
 
+	$gradient = $('.items')
+	  .visibility({
+	    once       : false,
+	    continuous : true,
+	    onPassing  : function(calculations) {
+	      var newColor = 'rgba(255,255,255, ' + calculations.percentagePassed +')';
+	      $(this)
+	        .css('p', newColor)
+	      ;
+	    }
+	  })
+	;
 });
