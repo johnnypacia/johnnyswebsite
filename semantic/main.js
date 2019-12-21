@@ -15,8 +15,11 @@ $(function (){
 	$recording = $("#recording");
 	$recording.on('click', function (){
 		$('#production').removeClass('active');
-		$("#recording").addClass('active');
-		$('#production').style.visibility = "hidden";
+		$('#recording').addClass('active');
+	});
+	$production.on('click', function (){
+		$('#recording').removeClass('active');
+		$('#production').addClass('active');
 	});
 
 
@@ -74,29 +77,17 @@ $(function (){
 	  	});
 	});
 
-	$gradient = $('body')
-	  .visibility({
-	    once       : false,
-	    continuous : true,
-	    onPassing  : function(calculations) {
-	      var newColor = 'rgba(0, 0, 0, ' + calculations.percentagePassed +')';
-	      $(this)
-	        .css('background-color', newColor)
-	      ;
-	    }
-	  })
-	;
+	// $gradient = $('body')
+	//   .visibility({
+	//     once       : false,
+	//     continuous : true,
+	//     onPassing  : function(calculations) {
+	//       var newColor = 'rgba(0, 0, 0, ' + calculations.percentagePassed +')';
+	//       $(this)
+	//         .css('background-color', newColor)
+	//       ;
+	//     }
+	//   })
+	// ;
 
-	$gradient = $('.items')
-	  .visibility({
-	    once       : false,
-	    continuous : true,
-	    onPassing  : function(calculations) {
-	      var newColor = 'rgba(255,255,255, ' + calculations.percentagePassed +')';
-	      $(this)
-	        .css('p', newColor)
-	      ;
-	    }
-	  })
-	;
 });
