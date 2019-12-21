@@ -1,7 +1,7 @@
 console.log('linked and loaded'); 
 
 var $gradient;
-var $resume;
+var $recording;
 var $contact;
 var $apps;
 var $music;
@@ -12,10 +12,19 @@ $(function (){
 	  .sticky({
   	});
 
-	$resume = $("#resume");
-	$resume.click(function(){
-		$('.ui.modal').modal('show');
+	$recording = $("#recording");
+	$recording.on('click', function (){
+		$('#production').removeClass('active');
+		$("#recording").addClass('active');
+		$('#production').style.visibility = "hidden";
 	});
+
+
+
+	// click(function(){
+	// 	$('.recording').item('show');
+	// 	$('.production').item('hide');
+	// });
 
 	$contact = $('#johnny-contact');
 
