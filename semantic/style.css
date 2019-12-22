@@ -52,8 +52,16 @@ body {
     padding: 2rem 5rem;
     transition: all .2s ease-in-out;
   }
+
+.item {
+    transition: all .2s ease-in-out;
+  }
   
 .slide:not(.active) {
+      display: none;
+    }
+
+.music.item:not(.active) {
       display: none;
     }
 

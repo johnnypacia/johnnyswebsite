@@ -3,31 +3,27 @@ console.log('linked and loaded');
 var $gradient;
 var $recording;
 var $contact;
-var $apps;
+var $production;
 var $music;
 
 $(function (){
 
-	$('.ui.sticky')
-	  .sticky({
-  	});
 
 	$recording = $("#recording");
 	$recording.on('click', function (){
 		$('#production').removeClass('active');
-		$('#recording').addClass('active');
+		$('.production.music').removeClass('active');
+		$('.recording.music').addClass('active');
 	});
+
+
+	$production = $('#production');
 	$production.on('click', function (){
 		$('#recording').removeClass('active');
-		$('#production').addClass('active');
+		$('.recording.music').removeClass('active');
+		$('.production.music').addClass('active');
 	});
 
-
-
-	// click(function(){
-	// 	$('.recording').item('show');
-	// 	$('.production').item('hide');
-	// });
 
 	$contact = $('#johnny-contact');
 
