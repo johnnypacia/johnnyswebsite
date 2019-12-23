@@ -12,6 +12,13 @@ body {
 
 }
 
+.music {
+  animation: fade 1.2s;
+
+}
+
+
+
 .video-js.vjs-fullscreen {
     width: 560px;
     height: 315px;

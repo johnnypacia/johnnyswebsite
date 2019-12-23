@@ -19,7 +19,8 @@ $(function (){
 
 	$production = $('#production');
 	$production.on('click', function (){
-		$('#recording').removeClass('active');
+		$('#recording').removeClass('active');	
+		$('#production').addClass('active');
 		$('.recording.music').removeClass('active');
 		$('.production.music').addClass('active');
 	});
