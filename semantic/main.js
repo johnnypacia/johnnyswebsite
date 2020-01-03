@@ -14,6 +14,7 @@ $(function (){
 		$('#production').removeClass('active');
 		$('.production.music').removeClass('active');
 		$('.recording.music').addClass('active');
+		$('.recording.music').css("visibility", "hidden");
 	});
 
 
@@ -23,6 +24,7 @@ $(function (){
 		$('#production').addClass('active');
 		$('.recording.music').removeClass('active');
 		$('.production.music').addClass('active');
+		$('.recording.music').css("display", "none");
 	});
 
 
