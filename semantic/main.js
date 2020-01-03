@@ -13,8 +13,9 @@ $(function (){
 	$recording.on('click', function (){
 		$('#production').removeClass('active');
 		$('.production.music').removeClass('active');
+		$('.production.music').css("visibility", "hidden");
 		$('.recording.music').addClass('active');
-		$('.recording.music').css("visibility", "hidden");
+		$('.recording.music').css("visibility", "visible");
 	});
 
 
@@ -23,8 +24,9 @@ $(function (){
 		$('#recording').removeClass('active');	
 		$('#production').addClass('active');
 		$('.recording.music').removeClass('active');
+		$('.recording.music').css("visibility", "hidden");
 		$('.production.music').addClass('active');
-		$('.recording.music').css("display", "none");
+		$('.production.music').css("visibility", "visible");
 	});
 
 
