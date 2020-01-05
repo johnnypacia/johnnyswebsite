@@ -91,8 +91,8 @@ body {
 }
 
 .image {
-  /*background: url('JohnnySunset.JPG')  no-repeat center center fixed;
-      background-size: cover; */
+  background: url('JohnnySunset.JPG')  no-repeat center center fixed;
+      background-size: cover; 
 }
 
 
