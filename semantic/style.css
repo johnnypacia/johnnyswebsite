@@ -35,17 +35,17 @@ body {
 .angle {
     cursor: pointer;
     position: relative;
-    width: calc(100% - 80px);
     transform: scale(2);
     transition: all .2s ease-in-out;
     z-index: 40;
+    padding-top: 40px;
   }
 
 .right {
       float: right;
       margin-right: 20px;
-      margin-top: 20px;
     }
+
 .left {
       float: left;
       margin-left: 20px;
@@ -70,9 +70,6 @@ body {
       display: none;
     }
 
-.music.item:not(.active) {
-      display: none;
-    }
 
 .faded {
   animation: fade .5s;
@@ -93,11 +90,13 @@ body {
 }
 
 .image {
-  background: url('JohnnySunset.JPG')  no-repeat center center fixed;
+  background: url('ATX11-15.jpg')  no-repeat center center fixed;
       background-size: cover; 
 }
 
-
+.music.item:not(.active) {
+      display: none;
+    }
 
 
 /*
