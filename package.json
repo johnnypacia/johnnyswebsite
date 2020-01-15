@@ -31,6 +31,7 @@
     "graceful-fs": "^4.2.3",
     "gulp": "^3.0.0",
     "gulp-cli": "^2.2.0",
+    "gulp-update": "0.0.2",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
     "mongodb": "^3.4.1",
