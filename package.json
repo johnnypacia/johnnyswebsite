@@ -23,11 +23,14 @@
   },
   "homepage": "https://github.com/johnnypacia/johnnyswebsite#readme",
   "dependencies": {
+    "assign-deep": "^1.0.1",
     "body-parser": "^1.19.0",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "foobar": "^1.1.0",
     "graceful-fs": "^4.2.3",
+    "gulp": "^3.0.0",
+    "gulp-cli": "^2.2.0",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
     "mongodb": "^3.4.1",
@@ -36,9 +39,9 @@
     "request": "^2.88.0",
     "semantic-ui": "^2.4.2",
     "semantic-ui-sass": "^2.4.2",
-    "t": "^0.5.1"
+    "set-value": "^3.0.1",
+    "t": "^0.5.1",
+    "update": "^0.7.4"
   },
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+  "devDependencies": {}
 }
